@@ -23,7 +23,8 @@ public class myController
 	@GetMapping("/")
 	public String getWelcome()
 	{
-		return "welcome";
+		return "index";
+		
 	}
 	
 	@GetMapping("/report")
